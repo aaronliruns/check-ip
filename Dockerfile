@@ -34,6 +34,6 @@ USER appuser
 # Set production mode for Gin
 ENV GIN_MODE=release
 
-EXPOSE 8080
+EXPOSE 8888
 
 CMD ["./check-ip"]

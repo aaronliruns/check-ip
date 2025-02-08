@@ -8,7 +8,7 @@ The service is configured via `config.yaml`:
 
 ```yaml
 server:
-  port: 8080    # Port the service will listen on
+  port: 8888    # Port the service will listen on
 cidr:
   file: "cidrs.txt"    # File containing CIDR ranges, one per line
 ```
@@ -49,6 +49,6 @@ go run main.go
 ```
 
 ```shell
-curl "http://localhost:8080/check/128.106.183.190"
-curl "http://localhost:8080/check/120.244.38.93"
+curl "http://localhost:8888/check/128.106.183.190"
+curl "http://localhost:8888/check/120.244.38.93"
 ```
